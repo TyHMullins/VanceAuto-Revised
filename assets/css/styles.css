@@ -1,0 +1,19 @@
+
+:root {
+  --card-radius: 1rem;
+}
+.object-fit-cover {
+  object-fit: cover;
+}
+.card-vehicle {
+  transition: transform .1s ease, box-shadow .2s ease;
+}
+.card-vehicle:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.08)!important;
+}
+.badge-pill {
+  border-radius: 50rem;
+  padding: .35rem .6rem;
+  font-weight: 600;
+}
